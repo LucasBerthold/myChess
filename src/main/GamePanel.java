@@ -77,7 +77,7 @@ public class GamePanel extends JPanel implements Runnable {
     boolean canMove;
     boolean validSquare;
     boolean promotion;
-    boolean gameover = true;
+    boolean gameover;
     boolean stalemate;
 
     public GamePanel() {
